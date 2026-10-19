@@ -1,0 +1,123 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Mon Oct 12 16:04:22 2026
+| Host         : DESKTOP-RV68C46 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file top_methodology_drc_routed.rpt -pb top_methodology_drc_routed.pb -rpx top_methodology_drc_routed.rpx
+| Design       : top
+| Device       : xc7z020clg484-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max checks: <unlimited>
+             Checks found: 14
++-----------+------------------+-------------------------------------------------+--------+
+| Rule      | Severity         | Description                                     | Checks |
++-----------+------------------+-------------------------------------------------+--------+
+| TIMING-17 | Critical Warning | Non-clocked sequential cell                     | 5      |
+| TIMING-18 | Warning          | Missing input or output delay                   | 1      |
+| XDCC-5    | Warning          | User Non-Timing constraint/property overwritten | 8      |
++-----------+------------------+-------------------------------------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-17#1 Critical Warning
+Non-clocked sequential cell  
+The clock pin counter_inst/over_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Critical Warning
+Non-clocked sequential cell  
+The clock pin counter_inst/v_count_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#3 Critical Warning
+Non-clocked sequential cell  
+The clock pin counter_inst/v_count_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#4 Critical Warning
+Non-clocked sequential cell  
+The clock pin counter_inst/v_count_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#5 Critical Warning
+Non-clocked sequential cell  
+The clock pin counter_inst/v_count_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on arst_n relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+Related violations: <none>
+
+XDCC-5#1 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on arst_n overrides a previous user property.
+New Source: C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_1/Assignment_2.srcs/constrs_1/imports/System Modelling and Synthesis with HDL/zedboard_master.xdc (Line: 378)
+Previous Source: C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_1/Assignment_2.srcs/constrs_1/imports/System Modelling and Synthesis with HDL/zedboard_master.xdc (Line: 368)
+Related violations: <none>
+
+XDCC-5#2 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on data[0] overrides a previous user property.
+New Source: C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_1/Assignment_2.srcs/constrs_1/imports/System Modelling and Synthesis with HDL/zedboard_master.xdc (Line: 378)
+Previous Source: C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_1/Assignment_2.srcs/constrs_1/imports/System Modelling and Synthesis with HDL/zedboard_master.xdc (Line: 372)
+Related violations: <none>
+
+XDCC-5#3 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on data[1] overrides a previous user property.
+New Source: C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_1/Assignment_2.srcs/constrs_1/imports/System Modelling and Synthesis with HDL/zedboard_master.xdc (Line: 378)
+Previous Source: C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_1/Assignment_2.srcs/constrs_1/imports/System Modelling and Synthesis with HDL/zedboard_master.xdc (Line: 372)
+Related violations: <none>
+
+XDCC-5#4 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on data[2] overrides a previous user property.
+New Source: C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_1/Assignment_2.srcs/constrs_1/imports/System Modelling and Synthesis with HDL/zedboard_master.xdc (Line: 378)
+Previous Source: C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_1/Assignment_2.srcs/constrs_1/imports/System Modelling and Synthesis with HDL/zedboard_master.xdc (Line: 372)
+Related violations: <none>
+
+XDCC-5#5 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on data[3] overrides a previous user property.
+New Source: C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_1/Assignment_2.srcs/constrs_1/imports/System Modelling and Synthesis with HDL/zedboard_master.xdc (Line: 373)
+Previous Source: C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_1/Assignment_2.srcs/constrs_1/imports/System Modelling and Synthesis with HDL/zedboard_master.xdc (Line: 372)
+Related violations: <none>
+
+XDCC-5#6 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on dir overrides a previous user property.
+New Source: C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_1/Assignment_2.srcs/constrs_1/imports/System Modelling and Synthesis with HDL/zedboard_master.xdc (Line: 378)
+Previous Source: C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_1/Assignment_2.srcs/constrs_1/imports/System Modelling and Synthesis with HDL/zedboard_master.xdc (Line: 371)
+Related violations: <none>
+
+XDCC-5#7 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on enable overrides a previous user property.
+New Source: C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_1/Assignment_2.srcs/constrs_1/imports/System Modelling and Synthesis with HDL/zedboard_master.xdc (Line: 378)
+Previous Source: C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_1/Assignment_2.srcs/constrs_1/imports/System Modelling and Synthesis with HDL/zedboard_master.xdc (Line: 369)
+Related violations: <none>
+
+XDCC-5#8 Warning
+User Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on load overrides a previous user property.
+New Source: C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_1/Assignment_2.srcs/constrs_1/imports/System Modelling and Synthesis with HDL/zedboard_master.xdc (Line: 378)
+Previous Source: C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_1/Assignment_2.srcs/constrs_1/imports/System Modelling and Synthesis with HDL/zedboard_master.xdc (Line: 370)
+Related violations: <none>
+
+

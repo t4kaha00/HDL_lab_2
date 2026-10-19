@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Mon Oct 12 14:51:38 2026
+# Process ID         : 61696
+# Current directory  : C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent68480 C:\Users\hkarm\Documents\Masters\System Modelling and Synthesis with HDL\Assignments\Assignment 2\Assignment_2_Task_1\Assignment_2.xpr
+# Log file           : C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_1/vivado.log
+# Journal file       : C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_1\vivado.jou
+# Running On         : DESKTOP-RV68C46
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19045
+# Processor Detail   : Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+# CPU Frequency      : 2712 MHz
+# CPU Physical cores : 2
+# CPU Logical cores  : 4
+# Host memory        : 8462 MB
+# Swap memory        : 15885 MB
+# Total Virtual      : 24347 MB
+# Available Virtual  : 7818 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_1/Assignment_2.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source Eightbitcounter_tb.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_sim

@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Failure: ERROR: Duty cycle mismatch! Expected high count: 64, Got: 0
+Time: 5165 ns  Iteration: 1  Process: /pwm_tb/p_stim  File: C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_2/Assignment_2_Task_2/Assignment_2_Task_2.srcs/sim_1/new/pwm_tb.vhd
+$finish called at time : 5165 ns

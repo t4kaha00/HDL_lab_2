@@ -1,0 +1,21 @@
+Time resolution is 1 ps
+Error: test failed at reset 1, enable 1, load 0, dir 0, over 1
+Time: 215 ns  Iteration: 0  Process: /counter_tb/stimulus  File: C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_1/Assignment_2.srcs/sim_1/new/counter_tb.vhd
+Error: test failed at reset 1, enable 1, load 0, dir 0, over 0
+Time: 225 ns  Iteration: 0  Process: /counter_tb/stimulus  File: C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_1/Assignment_2.srcs/sim_1/new/counter_tb.vhd
+Error: test failed at reset 1, enable 1, load 0, dir 1, over 1
+Time: 265 ns  Iteration: 0  Process: /counter_tb/stimulus  File: C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_1/Assignment_2.srcs/sim_1/new/counter_tb.vhd
+Error: test failed at reset 1, enable 1, load 0, dir 1, over 0
+Time: 275 ns  Iteration: 0  Process: /counter_tb/stimulus  File: C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_1/Assignment_2.srcs/sim_1/new/counter_tb.vhd
+Note: All test cases passed
+Time: 426 ns  Iteration: 0  Process: /counter_tb/stimulus  File: C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_1/Assignment_2.srcs/sim_1/new/counter_tb.vhd
+Error: test failed at reset 1, enable 1, load 0, dir 0, over 1
+Time: 645 ns  Iteration: 0  Process: /counter_tb/stimulus  File: C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_1/Assignment_2.srcs/sim_1/new/counter_tb.vhd
+Error: test failed at reset 1, enable 1, load 0, dir 0, over 0
+Time: 655 ns  Iteration: 0  Process: /counter_tb/stimulus  File: C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_1/Assignment_2.srcs/sim_1/new/counter_tb.vhd
+Error: test failed at reset 1, enable 1, load 0, dir 1, over 1
+Time: 695 ns  Iteration: 0  Process: /counter_tb/stimulus  File: C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_1/Assignment_2.srcs/sim_1/new/counter_tb.vhd
+Error: test failed at reset 1, enable 1, load 0, dir 1, over 0
+Time: 705 ns  Iteration: 0  Process: /counter_tb/stimulus  File: C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_1/Assignment_2.srcs/sim_1/new/counter_tb.vhd
+Note: All test cases passed
+Time: 856 ns  Iteration: 0  Process: /counter_tb/stimulus  File: C:/Users/hkarm/Documents/Masters/System Modelling and Synthesis with HDL/Assignments/Assignment 2/Assignment_2_Task_1/Assignment_2.srcs/sim_1/new/counter_tb.vhd
