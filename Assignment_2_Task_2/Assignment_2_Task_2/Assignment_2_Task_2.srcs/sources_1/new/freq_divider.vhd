@@ -11,8 +11,8 @@ entity freq_divider is
 end freq_divider;
 
 architecture Behavioral of freq_divider is
---    constant MAX_COUNT : integer := 500 - 1;
-    constant MAX_COUNT : integer := 50_000_000 - 1;
+    -- 100 MHz / (2 * 500) = 100 kHz
+    constant MAX_COUNT : integer := 500_000 - 1;
     signal divider : integer range 0 to MAX_COUNT := 0;
     signal clk_temp : std_logic := '0';
 
